@@ -1,4 +1,5 @@
 import React from 'react'
+import '@fortawesome/fontawesome-free/css/all.min.css';
 import Navbar from './Navbar'
 import "./Home.css"
 import Bg from "../assets/bg.jpg"
@@ -16,20 +17,37 @@ function Home() {
                         <p className='d3'> majestic mountains and unforgettable journeys.</p>
                     </div>
                     <div className="cardbtn">
-                        <button>Explore now <i class="fa-solid fa-right-long"></i></button>
+                        <button><p>Explore now</p> <i class="fa-solid fa-right-long"></i></button>
                     </div>
                     <div className="Cardrefrencs">
                         <div className="location">
-                            <p>50+</p>
-                            <p>Destinations</p>
+                            <div>
+                                <i class="fa-solid fa-location-pin"></i>
+                            </div>
+                            <div>
+                                <p>50+</p>
+                                <p>Destinations</p>
+                            </div>
+
                         </div>
                         <div className="rating">
-                            <p>TOP</p>
-                            <p>Rated places</p>
+                            <div>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div>
+                                <p>TOP</p>
+                                <p>Rated places</p>
+                            </div>
                         </div>
                         <div className="guides">
-                            <p>Travel</p>
-                            <p>Guides</p>
+                            <div>
+                                <i class="fa-regular fa-map"></i>
+                            </div>
+                            <div>
+                                <p>Travel</p>
+                                <p>Guides</p>
+                            </div>
+
                         </div>
                     </div>
                 </div>

@@ -10,52 +10,80 @@
   height: 100vh;
   padding-top: 10px;
 }
-.Card{
-    margin-left: 150px;
-    margin-top: 100px;
-
+.Card {
+  margin-left: 150px;
+  margin-top: 100px;
 }
 
-
-.d1{
-    font-size: 65px;
-    font-family: Poppins / Inter;
-    font-weight: 700;
-    color: #ffffff;
-    margin-bottom: 10px;
-
+.d1 {
+  font-size: 65px;
+  font-family: Poppins / Inter;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
 }
 
-.d2{
-    font-family: Great Vibes / Allura;
-    font-size: 74px;
-    font-weight: 400;
-    color: #8DD95E;
-    margin-bottom: 20px;
+.d2 {
+  font-family: Great Vibes / Allura;
+  font-size: 74px;
+  font-weight: 400;
+  color: #8dd95e;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
 }
-d3{
-    font-family: Poppins / Inter;
-    font-size: 16px;
-    font-weight: 400;
-    color: #E8E8E8;
+d3 {
+  font-family: Poppins / Inter;
+  font-size: 16px;
+  font-weight: 400;
+  color: #e8e8e8;
+  text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
 }
-.cardbtn button{
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: 600;
-    color: #FFFFFF;
-    border: none;
-    background-color: rgb(41, 167, 41);
-    padding: 14px 30px;
-    border-radius: 12px;
-    margin-top: 35px;
-    margin-bottom: 50px;
+.cardbtn button {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  border: none;
+  background-color: rgb(41, 167, 41);
+  padding: 14px 30px;
+  border-radius: 12px;
+  margin-top: 35px;
+  margin-bottom: 50px;
 }
 
-.Cardrefrencs{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 50px;
-    margin: 30px;
+.cardbtn button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  cursor: pointer;
+}
+.cardbtn button i {
+  color: rgb(166, 224, 224);
+}
+.fa-right-long {
+  font-size: 30px;
+}
+.Cardrefrencs {
+  display: flex;
+  align-items: center;
+  /* justify-content: flex-start; */
+  gap: 50px;
+  margin: 30px;
+}
+.location,
+.rating,
+.guides {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.fa-star,
+.fa-map,
+.fa-location-pin {
+  font-size: 30px;
 }

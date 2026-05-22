@@ -1,4 +1,5 @@
 import React from 'react'
+import '@fortawesome/fontawesome-free/css/all.min.css';
 import "./Navbar.css";
 import logo from '../assets/logo.png'
 function Navbar() {
@@ -17,7 +18,7 @@ function Navbar() {
                 </ul>
             </div>
             <div>
-                <button>Login</button>
+                <button><i className="fa-solid fa-user"></i>Login</button>
             </div>
         </div>
     )

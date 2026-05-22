@@ -87,3 +87,49 @@ d3 {
 .fa-location-pin {
   font-size: 30px;
 }
+
+.HomeSearchbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0px;
+}
+.boxsearc {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 600px;
+  height: 70px;
+  border: 1px solid black;
+  padding-right: 25px;
+  padding-left: 25px;
+  border-radius: 35px;
+}
+.fa-magnifying-glass {
+  color: #8dd95e;
+  font-size: 30px;
+}
+
+.boxsearc input {
+  width: 80%;
+  height: 80%;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 16px;
+}
+input::placeholder {
+  font-size: 16px;
+}
+.boxsearc button {
+  height: 80%;
+  width: 90px;
+  border: none;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  border-radius: 15px;
+  background-color: rgb(41, 167, 41);
+  cursor: pointer;
+}

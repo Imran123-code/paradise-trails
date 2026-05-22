@@ -3,6 +3,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import Navbar from './Navbar'
 import "./Home.css"
 import Bg from "../assets/bg.jpg"
+import Search from "../assets/search-icon-removebg-preview.png"
 import kashmir from "../assets/kashmir.png"
 function Home() {
     return (
@@ -52,7 +53,16 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <p>sgsfc</p>
+            <div className="HomeSearchbar">
+                <div className="boxsearc">
+                    <div>
+                        <i class="fa-regular fa-magnifying-glass"></i>
+                        {/* <img src={Search}></img> */}
+                    </div>
+                    <input type="search" placeholder='Search destinations(e.g. Manasbal, gulmarg,sonamarg)' />
+                    <button>Search</button>
+                </div>
+            </div>
         </div>
     )
 }

@@ -2,7 +2,7 @@
   color: white;
 }
 .Homecard {
-  background-image: url("../assets/bg.jpg");
+  background-image: url("../assets/kashmir.png");
   height: 300px;
   background-size: cover;
   background-position: center;
@@ -22,6 +22,7 @@
     font-family: Poppins / Inter;
     font-weight: 700;
     color: #ffffff;
+    margin-bottom: 10px;
 
 }
 
@@ -30,6 +31,7 @@
     font-size: 74px;
     font-weight: 400;
     color: #8DD95E;
+    margin-bottom: 20px;
 }
 d3{
     font-family: Poppins / Inter;
@@ -46,6 +48,8 @@ d3{
     background-color: rgb(41, 167, 41);
     padding: 14px 30px;
     border-radius: 12px;
+    margin-top: 35px;
+    margin-bottom: 50px;
 }
 
 .Cardrefrencs{

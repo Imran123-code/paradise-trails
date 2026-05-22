@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import "./Home.css"
 import Bg from "../assets/bg.jpg"
+import kashmir from "../assets/kashmir.png"
 function Home() {
     return (
         <div className='Home' >
@@ -15,7 +16,7 @@ function Home() {
                         <p className='d3'> majestic mountains and unforgettable journeys.</p>
                     </div>
                     <div className="cardbtn">
-                        <button>Explore now </button>
+                        <button>Explore now <i class="fa-solid fa-right-long"></i></button>
                     </div>
                     <div className="Cardrefrencs">
                         <div className="location">

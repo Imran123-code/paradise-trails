@@ -5,6 +5,26 @@ import "./Home.css"
 import Bg from "../assets/bg.jpg"
 import Search from "../assets/search-icon-removebg-preview.png"
 import kashmir from "../assets/kashmir.png"
+import Manasbal from "../assets/Places/manasbal.png"
+import Gulmarg from "../assets/Places/Gulmarg.png"
+import Sonmarg from "../assets/Places/Sonmarg.png"
+let places = [
+    {
+        img1: Manasbal,
+        Name: "manasbal",
+        Description: "Manasbal Lake is one of Kashmir’s most beautiful lakes, known for its calm waters, mountain views, and peaceful surroundings.",
+    },
+    {
+        img1: Gulmarg,
+        Name: "Gulmarg",
+        Description: "Gulmarg is a famous hill station in Kashmir, popular for snow-covered mountains, gondola rides, and breathtaking landscapes.",
+    },
+    {
+        img1: kashmir,
+        Name: "Sonamarg",
+        Description: "Sonamarg, known as the Meadow of Gold, offers stunning valleys, glaciers, rivers, and unforgettable mountain scenery.",
+    }
+];
 function Home() {
     return (
         <div className='Home' >
@@ -63,6 +83,31 @@ function Home() {
                     <button>Search</button>
                 </div>
             </div>
+            <div className="FutureDetinationOuter">
+                <div className="FutureDetinationLabel">
+                    <div className="dd1">
+                        <h1>Featured Destination</h1>
+                        <p>Explore some of the beautiful pleaces in kashmir</p>
+                    </div>
+                    <div className="dd2">
+                        <button>View all</button>
+                        <i class="fa-solid fa-right-long"></i>
+                    </div>
+                </div>
+                <div className="FutureDetination">
+                    {places.map((place, index) => (
+                        <div className="card">
+                            <img src={place.img1} alt={place.Name} />
+                            <h2>{place.Name}</h2>
+                            <p>{place.Description}</p>
+                            <div className='cardBtn'>
+                                <button>Explore</button>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </div>
+
         </div>
     )
 }

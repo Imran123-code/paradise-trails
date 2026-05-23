@@ -63,7 +63,7 @@ d3 {
   color: rgb(166, 224, 224);
 }
 .fa-right-long {
-  font-size: 30px;
+  font-size: 18px;
 }
 .Cardrefrencs {
   display: flex;
@@ -132,4 +132,79 @@ input::placeholder {
   border-radius: 15px;
   background-color: rgb(41, 167, 41);
   cursor: pointer;
+}
+
+.card {
+  width: 300px;
+  height: 320px;
+  border-radius: 15px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  color: black;
+}
+
+.FutureDetinationLabel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  margin: 0px 200px;
+}
+.FutureDetination {
+  margin: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  color: black;
+}
+.dd2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 6px;
+  color: green;
+  font-size: 10px;
+}
+.dd2 button {
+  border: none;
+  cursor: pointer;
+  background: none;
+  color: green;
+  font-size: 14px;
+}
+.card img {
+  width: 300px;
+  height: 180px;
+}
+.card h2 {
+  padding-left: 10px;
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+}
+.card p {
+  color: gray;
+  word-wrap: break-word; /* prevent text overflow */
+  overflow-wrap: break-word;
+  padding: 10px;
+}
+
+.cardBtn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 10px;
+  padding-right: 20px;
+}
+.cardBtn button {
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+.cardBtn button:hover {
+  color: green;
+  text-decoration: underline;
 }

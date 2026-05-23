@@ -8,6 +8,7 @@ import kashmir from "../assets/kashmir.png"
 import Manasbal from "../assets/Places/manasbal.png"
 import Gulmarg from "../assets/Places/Gulmarg.png"
 import Sonmarg from "../assets/Places/Sonmarg.png"
+import Mountain from "../assets/Category/Mountain.png"
 let places = [
     {
         img1: Manasbal,
@@ -22,7 +23,7 @@ let places = [
     {
         img1: kashmir,
         Name: "Sonamarg",
-        Description: "Sonamarg, known as the Meadow of Gold, offers stunning valleys, glaciers, rivers, and unforgettable mountain scenery.",
+        Description: "Sonamarg, known as the Meadow of Gold, offers stunning valleys, glaciers, rivers, and unforgettable mountain scenery......................",
     }
 ];
 function Home() {
@@ -107,7 +108,43 @@ function Home() {
                     ))}
                 </div>
             </div>
-
+            <div className="Categories">
+                <div className='CategoriesTitle'>
+                    Explore by Categories
+                </div>
+                <div className="CategoriesPLaces">
+                    <div className="placsDEs">
+                        <img src={Mountain} alt="" />
+                        <p>Mountain</p>
+                        <button>Explore</button>
+                    </div>
+                    <div className="placsDEs">
+                        <img src={Mountain} alt="" />
+                        <p>Lakes</p>
+                        <button>Explore</button>
+                    </div>
+                    <div className="placsDEs">
+                        <img src={Mountain} alt="" />
+                        <p>Gardens</p>
+                        <button>Explore</button>
+                    </div>
+                    <div className="placsDEs">
+                        <img src={Mountain} alt="" />
+                        <p>Historical</p>
+                        <button>Explore</button>
+                    </div>
+                    <div className="placsDEs">
+                        <img src={Mountain} alt="" />
+                        <p>Religous</p>
+                        <button>Explore</button>
+                    </div>
+                    <div className="placsDEs">
+                        <img src={Mountain} alt="" />
+                        Advanture
+                        <button>Explore</button>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

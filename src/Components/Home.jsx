@@ -145,6 +145,42 @@ function Home() {
                     </div>
                 </div>
             </div>
+            <div className="Categories2">
+                <div className='CategoriesTitle2'>
+                    Why choose pradise trails
+                </div>
+                <div className="CategoriesPLaces">
+                    <div className="localDiscovery">
+                        <div className="logolocalDiscovery">
+                            <i class="fa-solid fa-location-crosshairs"></i>
+                        </div>
+                        <div>
+                            <h1>Local Discovery</h1>
+                            <p>Curated places handpicked to help you explore the real kashmir</p>
+                        </div>
+                    </div>
+                    <div className="Toprated localDiscovery">
+                        <div className="logolocalDiscovery">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div>
+                            <h1>Top Rated places</h1>
+                            <p>Curated places handpicked to help you explore the real kashmir</p>
+
+                        </div>
+                    </div>
+                    <div className="Easyplan localDiscovery">
+                        <div className="logolocalDiscovery">
+                            <i class="fa-regular fa-calendar"></i>
+                        </div>
+                        <div>
+                            <h1>Easy Planing</h1>
+                            <p>Curated places handpicked to help you explore the real kashmir</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

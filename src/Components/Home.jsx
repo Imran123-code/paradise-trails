@@ -9,6 +9,7 @@ import Manasbal from "../assets/Places/manasbal.png"
 import Gulmarg from "../assets/Places/Gulmarg.png"
 import Sonmarg from "../assets/Places/Sonmarg.png"
 import Mountain from "../assets/Category/Mountain.png"
+import Footer from './Footer';
 let places = [
     {
         img1: Manasbal,
@@ -181,6 +182,7 @@ function Home() {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 }
